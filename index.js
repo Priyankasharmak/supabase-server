@@ -2,6 +2,7 @@ const express=require('express');
 const app= express();
 const port=3000;
 const { createClient } = require('@supabase/supabase-js');
+
 require('dotenv').config();
 
 // Replace 'YOUR_SUPABASE_URL' and 'YOUR_SUPABASE_KEY' with your actual Supabase URL and API Key
